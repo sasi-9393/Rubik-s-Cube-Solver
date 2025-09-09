@@ -37,7 +37,7 @@ class RubiksCube {
 
     virtual COLOR getColor(FACE face, unsigned row, unsigned col) const = 0;
 
-    Static char getColorLetter(COLOR color); //RETURNS THE FIRST COLOR LETTER OF COLOR EX: G FOR GREEN
+    static char getColorLetter(COLOR color); //RETURNS THE FIRST COLOR LETTER OF COLOR EX: G FOR GREEN
 
     virtual bool isSolved() const = 0;
 
